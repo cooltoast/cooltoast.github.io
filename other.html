@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Markan Patel</title>
+
+	<link rel="stylesheet" type="text/css" href="fullPage/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="fullPage/examples.css" />
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="fullPage/jquery.fullPage.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+                            css3: true
+                        });
+		});
+	</script>
+
+	<style>
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+		background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
+		background: linear-gradient(#4BBFC3,#7BAABE);
+	}
+
+	#section1{
+		background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#969ac6));
+		background: -webkit-linear-gradient(#7BAABE, #969AC6);
+		background: linear-gradient(#7BAABE,#969AC6);
+	}
+
+	#section2{
+		background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#636F8F));
+		background: -webkit-linear-gradient(#969AC6, #636F8F);
+		background: linear-gradient(#969AC6,#636F8F);
+	}
+	
+	#section3{
+		background: -webkit-gradient(linear, top left, bottom left, from(#636F8F), to(#006666));
+		background: -webkit-linear-gradient(#636F8F, #006666);
+		background: linear-gradient(#636F8F,#006666);
+	}
+
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+
+	.intro p{
+		color: #fff;
+	}
+
+	.section{
+		text-align:center;
+	}
+
+
+	</style>
+
+</head>
+<body>
+
+<div id="header">
+  <!--
+  <div class='name'>Markan Patel</div>
+  <div class='resume'><a href="files/MarkanPatelResume.pdf">Resume</a></div>
+  <br>
+  -->
+  <div>
+    <ul>
+      <li><div class='name'>Markan Patel</div></li>
+      <li><div><a href='https://github.com/cooltoast'><img src="img/github32.png"></a></div></li>
+      <li><div><a href='http://www.linkedin.com/in/markanpatel'><img src="img/linkedin32.png"></a></div></li>
+      <li><div><a href='mailto:markanp@umich.edu'><img src="img/email32.png"></a></div></li>
+      <li><div class='resume'><a href="files/MarkanPatelResume.pdf">Resume</a></div></li>
+    </ul>
+  </div>
+</div>
+
+<div id="fullpage">
+	<div class="section active" id="section0">
+	  <h1>Markan Patel</h1>
+	  <p>I'm a Biomedical Engineering undergraduate and Computer Science minor at the University of Michigan</p>
+	  <p>You can view my resume <a href="files/MarkanPatelResume.pdf">here.</a></p>
+	</div>
+	<div class="section experience" id="section1">
+          <h1>My Experience</h1>
+          <br>
+          <p>September 2014 to Present - Codebase Manager @ Michigan Hackers</p>
+          <br>
+          <p>Summer 2014 - Software Engineering Intern @ Nephosity</p>
+          <br>
+          <p>Summer 2013 - Software Developer Intern @ Wireless Information Network Lab (WINLAB) at Rutgers University</p>
+          <br>
+
+	</div>
+
+	<div class="section" id="section2">
+	  <h1>My Projects</h1>
+	  <br>
+          <p><a href="projects.html">Here are the projects I've worked on</a></p>
+          <br>
+          <h2>(This section under construction)</h2>
+	</div>
+
+	<div class="section" id="section3">
+	  <h1>Other Stuff</h1>
+          <p><a href="https://soundcloud.com/markanpatel">Soundcloud</a></p>
+          <p><a href="https://www.youtube.com/user/cooltoast12">YouTube</a></p>
+          <p><a href="http://www.youtube.com/watch?v=vXQkjEEaPuw">Interview from long ago</a></p>
+
+	</div>
+</div>
+
+</body>
+</html>
