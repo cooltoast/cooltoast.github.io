@@ -17,17 +17,20 @@ html, body, h1 {
 
 a:link {
       text-decoration: none;
+      color: #0000B8;
 }
 
 a:visited {
       text-decoration: none;
+      color: #0000B8;
 }
 
 a:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      color: #990099;
 }
 
 a:active {
-      text-decoration: underline;
+      text-decoration: none;
 }
 
