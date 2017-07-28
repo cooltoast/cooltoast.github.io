@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/cooltoast
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://markanpatel.me
+  * I am cooltoast (https://keybase.io/cooltoast) on keybase.
+  * I have a public key ASBhjUqImZN1YcVLvNFXs3ahQUvszjm4ZPJwQhWlaZAlAQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120618d4a8899937561c54bbcd157b376a1414becce39b864f2704215a5699025010a",
+      "host": "keybase.io",
+      "kid": "0120618d4a8899937561c54bbcd157b376a1414becce39b864f2704215a5699025010a",
+      "uid": "0d9fcd5f41556c20bc9557d18eb49b19",
+      "username": "cooltoast"
+    },
+    "merkle_root": {
+      "ctime": 1501282735,
+      "hash": "0904f82ab2c7fef5e215a90a7d3bd85683a08365b33f323c3003b2c156b86f199dac04d428a95c46d80330730d57d1f31245cb20e10eb35dc88a2aff70ad8cbe",
+      "hash_meta": "12316e3c3bfb19fc37117ebae189c54eadfb6fb1aefbe6c3272d43473a426bc0",
+      "seqno": 1288856
+    },
+    "service": {
+      "hostname": "markanpatel.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.26"
+  },
+  "ctime": 1501283199,
+  "expire_in": 504576000,
+  "prev": "9b5b8c2b940dc069f9a8a4b51412a79e3c3b0f75ccf29e18b1833a68fcfbe1ee",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYY1KiJmTdWHFS7zRV7N2oUFL7M45uGTycEIVpWmQJQEKp3BheWxvYWTFA0Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjE4ZDRhODg5OTkzNzU2MWM1NGJiY2QxNTdiMzc2YTE0MTRiZWNjZTM5Yjg2NGYyNzA0MjE1YTU2OTkwMjUwMTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjE4ZDRhODg5OTkzNzU2MWM1NGJiY2QxNTdiMzc2YTE0MTRiZWNjZTM5Yjg2NGYyNzA0MjE1YTU2OTkwMjUwMTBhIiwidWlkIjoiMGQ5ZmNkNWY0MTU1NmMyMGJjOTU1N2QxOGViNDliMTkiLCJ1c2VybmFtZSI6ImNvb2x0b2FzdCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwMTI4MjczNSwiaGFzaCI6IjA5MDRmODJhYjJjN2ZlZjVlMjE1YTkwYTdkM2JkODU2ODNhMDgzNjViMzNmMzIzYzMwMDNiMmMxNTZiODZmMTk5ZGFjMDRkNDI4YTk1YzQ2ZDgwMzMwNzMwZDU3ZDFmMzEyNDVjYjIwZTEwZWIzNWRjODhhMmFmZjcwYWQ4Y2JlIiwiaGFzaF9tZXRhIjoiMTIzMTZlM2MzYmZiMTlmYzM3MTE3ZWJhZTE4OWM1NGVhZGZiNmZiMWFlZmJlNmMzMjcyZDQzNDczYTQyNmJjMCIsInNlcW5vIjoxMjg4ODU2fSwic2VydmljZSI6eyJob3N0bmFtZSI6Im1hcmthbnBhdGVsLm1lIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yNiJ9LCJjdGltZSI6MTUwMTI4MzE5OSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI5YjViOGMyYjk0MGRjMDY5ZjlhOGE0YjUxNDEyYTc5ZTNjM2IwZjc1Y2NmMjllMThiMTgzM2E2OGZjZmJlMWVlIiwic2Vxbm8iOjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAqGEKtgstXwX98/r8KM1csjo31xL3lUtmcjbt1jSHOYs7AhRP06atBcThCk5zZ7sOkbMkyKeXsRz7CCFSKLtsBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIG9JuDZXmD19HEZP2MWxfAKxy4dKGl4rDBcUMZXfU4aAo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cooltoast
+
+==================================================================
