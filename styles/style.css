@@ -2,35 +2,33 @@ html, body, h1 {
   font-family: 'Raleway', sans-serif;
 }
 
+body {
+  background-color: #212121;
+}
+
 .center {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #b0e0e6;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b0e0e6;
 }
 
 #navlist li {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    padding: 25px 25px 25px 0px;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  padding: 25px 25px 25px 0px;
 }
 
-a:link {
-      text-decoration: none;
-      color: #0000B8;
+.name {
+  text-align: center;
+  color: #e0d2d2;
 }
 
-a:visited {
-      text-decoration: none;
-      color: #0000B8;
+a {
+  text-decoration: none;
+  color: #9898f3;
 }
 
 a:hover {
-      text-decoration: none;
-      color: #FF0066;
+  color: #FF0066;
 }
-
-a:active {
-      text-decoration: none;
-}
-
