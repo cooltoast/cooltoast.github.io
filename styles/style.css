@@ -6,6 +6,18 @@ body {
   background-color: #212121;
 }
 
+.circular {
+  width: 230px;
+  height: 230px;
+  border-radius: 115px;
+  -webkit-border-radius: 115px;
+  -moz-border-radius: 115px;
+  background: url(../img/face2.png) no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
