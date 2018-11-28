@@ -2,10 +2,12 @@
 <html>
   <head>
     <meta charset=utf-8>
-    <title>My first three.js app</title>
+    <title>Markan Patel</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <style>
-     body { margin: 0; cursor: move; }
-     canvas { width: 100%; height: 100% }
+     body { margin: 0; }
+     canvas { width: 100%; height: 100%; cursor: move; }
     </style>
   </head>
   <body>
@@ -30,6 +32,35 @@
      light = new THREE.DirectionalLight( 0xffffff, 0.8 );
 		 scene.add( light );
 
+     // water
+
+		 var waterGeometry = new THREE.PlaneBufferGeometry( 10000, 10000 );
+
+     // instantiate a loader
+     var loader = new THREE.TextureLoader();
+
+     //allow cross origin loading
+     loader.crossOrigin = '';
+
+		 var water = new THREE.Water(
+			 waterGeometry,
+			 {
+				 textureWidth: 512,
+				 textureHeight: 512,
+				 waterNormals: loader.load( 'img/water.jpg', function ( texture ) {
+				   texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
+         } ),
+				 alpha: 1.0,
+				     sunDirection: light.position.clone().normalize(),
+				     sunColor: 0xffffff,
+				     waterColor: 0x001e0f,
+				     distortionScale: 3.7,
+				     fog: scene.fog !== undefined
+			 }
+		 );
+		 water.rotation.x = - Math.PI / 2;
+		 scene.add( water );
+
      // sky
 
      var sky = new THREE.Sky();
@@ -44,8 +75,8 @@
 
      var parameters = {
 			 distance: 400,
-			 inclination: 0.49,
-			 azimuth: 0.12
+			 inclination: 0.485,
+			 azimuth: 0.085
 		 };
 
 		 var cubeCamera = new THREE.CubeCamera( 1, 20000, 256 );
@@ -57,7 +88,7 @@
 			 light.position.y = parameters.distance * Math.sin( phi ) * Math.sin( theta );
 			 light.position.z = parameters.distance * Math.sin( phi ) * Math.cos( theta );
 			 sky.material.uniforms.sunPosition.value = light.position.copy( light.position );
-			 /* water.material.uniforms.sunDirection.value.copy( light.position ).normalize(); */
+			 water.material.uniforms.sunDirection.value.copy( light.position ).normalize();
 			 cubeCamera.update( renderer, scene );
 		 }
 		 updateSun();
@@ -98,5 +129,53 @@
        document.getElementById('container').appendChild(warning);
      }
     </script>
+    <ul class='container'>
+      <li class='leftColumn'>
+        <div>
+          <h1 class="name">Markan Patel</h1>
+          <br>
+          <div class="circular"></div>
+        </div>
+      </li>
+      <li class='rightColumn'>
+        <div>
+          <div style="text-align:center">
+            <a href="files/MarkanPatelResume.pdf">resume</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <a href="projects.html">projects</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <a href="https://github.com/cooltoast">github</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <a href="http://www.linkedin.com/in/markanpatel">linkedin</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <a href="https://soundcloud.com/cooltoast12">soundcloud</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <a href="http://www.quora.com/Markan-Patel">quora</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <a href="https://www.youtube.com/user/cooltoast12">youtube</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <a href="https://stackoverflow.com/users/4302330/cooltoast">stackoverflow</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <a href="mailto:markanp@umich.edu">contact</a>
+          </div>
+        </div>
+      </li>
+    </ul>
   </body>
 </html>
