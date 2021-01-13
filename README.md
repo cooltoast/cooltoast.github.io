@@ -1,4 +1,3 @@
-cooltoast.github.io
-===================
+# cooltoast.github.io
 
 My personal website.
