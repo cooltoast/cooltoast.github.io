@@ -10,9 +10,7 @@ body {
   background-color: #212121;
 }
 
-.container,
-.leftColumn,
-.rightColumn {
+.container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -26,9 +24,7 @@ body {
 
   -webkit-justify-content: center;
   justify-content: center;
-}
 
-.container {
   height: 100%;
   width: 100%;
   padding: 0;
@@ -50,25 +46,14 @@ body {
   align-items: center;
 }
 
-.rightColumn {
-  margin-left: 32px;
-}
-
-.circular {
-  width: 230px;
-  height: 230px;
-  border-radius: 115px;
-  -webkit-border-radius: 115px;
-  -moz-border-radius: 115px;
-  background: url(img/face.png) no-repeat;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-}
-
 .name {
   text-align: center;
   color: #eaeaea;
+  margin: 8px;
+}
+
+.link {
+  margin: 8px;
 }
 
 a {
